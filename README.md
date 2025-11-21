@@ -202,7 +202,42 @@ Existência de usuários inativos facilita exploração
 | DVWA Automação        | admin      | passwords.txt | Sucesso         | Sem CAPTCHA ou rate limit |
 | SMB Password Spraying | 4 usuários | senha única   | 1 sucesso       | Senha fraca repetida      |
 
-🧾 8. Conclusão
+🛡️ 8. Recomendações de Mitigação
+🔒 FTP
+
+Desativar FTP → substituição por SFTP/FTPS
+
+Bloquear após tentativas consecutivas
+
+Aplicar firewall com limite de conexões
+
+Exigir senhas fortes
+
+🌐 Web (DVWA / Aplicações Reais)
+
+Implementar CAPTCHA
+
+Usar rate limit por IP
+
+Erros genéricos ("credenciais inválidas")
+
+Adoção de MFA
+
+Hash seguro de senhas
+
+📁 SMB
+
+Políticas rígidas de senha (complexidade mínima)
+
+Desativar contas “Guest” ou não utilizadas
+
+Habilitar bloqueio por tentativas
+
+Monitoramento e alertas via SIEM
+
+Auditoria periódica
+
+🧾 9. Conclusão
 
 Os testes demonstraram a facilidade de comprometer sistemas sem proteção adequada, mesmo com wordlists extremamente simples.
 A prática reforça:
