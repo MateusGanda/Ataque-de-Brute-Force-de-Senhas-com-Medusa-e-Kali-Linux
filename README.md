@@ -1,13 +1,13 @@
 # Ataque-de-Brute-Force-de-Senhas-com-Medusa-e-Kali-Linux
 Simulando um Ataque de Brute Force de Senhas com Medusa e Kali Linux no curso Santander - Cibersegurança 2025 da DIO
 
-REQUISITOS:
+# REQUISITOS:
 Ter instalado o linux seja ele pelo VirtualBox ou se ter no sistema operacional da máquina.
 
 Ter instalado o Metasploitable2 para servir como a máquina que será atacada
 
 
-NO LINUX QUE VAI INVADIR:
+# NO LINUX QUE VAI INVADIR:
 
 COMANDO PARA CRIAR UMA LISTA DE USUÁRIOS:
 
