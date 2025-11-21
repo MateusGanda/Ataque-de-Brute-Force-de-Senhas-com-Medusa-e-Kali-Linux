@@ -1,7 +1,7 @@
 # Ataque-de-Brute-Force-de-Senhas-com-Medusa-e-Kali-Linux
 Simulando um Ataque de Brute Force de Senhas com Medusa e Kali Linux no curso Santander - Cibersegurança 2025 da DIO
 
-📘 1. Visão Geral do Projeto
+# 📘 1. Visão Geral do Projeto
 
 Este documento descreve uma simulação educativa e autorizada de um ataque de força bruta (Brute Force) utilizando ferramentas do Kali Linux, com foco no utilitário Medusa.
 O teste foi totalmente realizado em máquinas virtuais privadas, sem qualquer impacto externo.
@@ -23,7 +23,7 @@ Verificação de contas SMB com uma mesma senha fraca.
 Este material destina-se exclusivamente ao estudo e à conscientização em Segurança da Informação.
 Todos os testes foram feitos em um ambiente isolado, privado e autorizado pelo próprio autor.
 
-🧪 2. Ambiente do Laboratório
+# 🧪 2. Ambiente do Laboratório
 🖥️ Máquina Atacante
 
 SO: Kali Linux
