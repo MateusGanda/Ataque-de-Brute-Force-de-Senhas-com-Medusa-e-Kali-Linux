@@ -1,6 +1,12 @@
 # Ataque-de-Brute-Force-de-Senhas-com-Medusa-e-Kali-Linux
 Simulando um Ataque de Brute Force de Senhas com Medusa e Kali Linux no curso Santander - Cibersegurança 2025 da DIO
 
+
+# REQUISITOS:
+Ter instalado o linux seja ele pelo VirtualBox ou se ter no sistema operacional da máquina.
+
+Ter instalado o Metasploitable2 para servir como a máquina que será atacada
+
 # 📘 1. Visão Geral do Projeto
 
 Este documento descreve uma simulação educativa e autorizada de um ataque de força bruta (Brute Force) utilizando ferramentas do Kali Linux, com foco no utilitário Medusa.
@@ -56,13 +62,7 @@ Sem risco para sistemas reais
 
 Snapshots realizados antes de cada teste.
 
-
-# REQUISITOS:
-Ter instalado o linux seja ele pelo VirtualBox ou se ter no sistema operacional da máquina.
-
-Ter instalado o Metasploitable2 para servir como a máquina que será atacada
-
-📚 3. Wordlists Utilizadas
+# 📚 3. Wordlists Utilizadas
 ✔ Lista de Usuários (userlist.txt)
 admin
 test
@@ -81,7 +81,7 @@ test
 
 Pequenas e fracas: ideal para demonstração rápida sem impactar o sistema.
 
-🎯 4. Teste 1 — Força Bruta em FTP
+# 🎯 4. Teste 1 — Força Bruta em FTP
 🔍 Objetivo
 
 Avaliar como um servidor FTP simples responde a diversas tentativas de autenticação.
@@ -116,7 +116,7 @@ Sem bloqueio de tentativas
 
 Senhas previsíveis facilitam ataques
 
-🌐 5. Teste 2 — Automação de Login em Formulário Web (DVWA)
+# 🌐 5. Teste 2 — Automação de Login em Formulário Web (DVWA)
 🎯 Objetivo
 
 Demonstrar como um formulário web vulnerável pode ser automatizado para testar credenciais.
@@ -153,7 +153,7 @@ Resposta explícita sinaliza sucesso/falha
 
 Formulário fácil de automatizar
 
-🖥️ 6. Teste 3 — Password Spraying em SMB
+# 🖥️ 6. Teste 3 — Password Spraying em SMB
 🎯 Objetivo
 
 Testar a reutilização de uma única senha fraca em múltiplos usuários SMB.
@@ -195,14 +195,14 @@ Password spraying difícil de detectar
 
 Existência de usuários inativos facilita exploração
 
-📊 7. Registro Consolidado dos Testes
+# 📊 7. Registro Consolidado dos Testes
 | Teste                 | Usuários   | Wordlist      | Resultado       | Observações               |
 | --------------------- | ---------- | ------------- | --------------- | ------------------------- |
 | FTP Brute Force       | admin, ftp | passwords.txt | Sucesso parcial | Sem bloqueio              |
 | DVWA Automação        | admin      | passwords.txt | Sucesso         | Sem CAPTCHA ou rate limit |
 | SMB Password Spraying | 4 usuários | senha única   | 1 sucesso       | Senha fraca repetida      |
 
-🛡️ 8. Recomendações de Mitigação
+# 🛡️ 8. Recomendações de Mitigação
 🔒 FTP
 
 Desativar FTP → substituição por SFTP/FTPS
@@ -237,7 +237,7 @@ Monitoramento e alertas via SIEM
 
 Auditoria periódica
 
-🧾 9. Conclusão
+# 🧾 9. Conclusão
 
 Os testes demonstraram a facilidade de comprometer sistemas sem proteção adequada, mesmo com wordlists extremamente simples.
 A prática reforça:
@@ -252,11 +252,12 @@ Redução de superfície de ataque
 
 🌱 Este laboratório reforça a conscientização e a importância de seguir boas práticas em Segurança da Informação.
 
+
 # CASO UTILIZAR NO VIRTUAL BOX:
 Colocar ambas as máquinas na parte de rede em "placa de rede exclusiva de hospedeiro (host-only)"
 
-
 # EXEPLOS DE CÓDIGOS: 
+
 # NO LINUX QUE VAI INVADIR:
 
 COMANDO PARA CRIAR UMA LISTA DE USUÁRIOS:
